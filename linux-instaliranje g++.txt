@@ -1,0 +1,8 @@
+Komanda za instaliranje g++ kompajlera:
+
+	sudo apt install build-essential
+
+
+kompajliranje: 
+
+g++ -o asembler main.cpp one_pass_assembly.cpp Util.cpp Global.cpp Section.cpp SectionTable.cpp SymbolTable.cpp RelocationTable.cpp RelocationTableList.cpp TabelaEquSimbola.cpp TabelaObracanjaUnapred.cpp TabelaObracanjaUnapredLista.cpp 
